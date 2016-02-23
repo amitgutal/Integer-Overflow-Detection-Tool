@@ -1,0 +1,9 @@
+\s*malloc\(\s*tainted_variable\s*\*\s*\d\)
+\s*malloc\((\s*[A-Za-z0-9_]*|[a-zA-Z0-9_\(\)]*)\s*[\(\)_,;\t \n\+\-\*\/\[\]]*\s*tainted_variable\s*[\(\)_,;\t \n\+\-\*\/\[\]]+\s*
+\s*malloc\(\s*[\d\w]+\s*[\+\*]+\s*([A-Za-z0-9_]*|[a-zA-Z0-9_\(\)]*)[\(\)_,;\t \n\+\-\*\/\[\]]*tainted_variable[\(\)_,;\t \n\+\-\*\/\[\]]+
+\s*malloc\(\s*tainted_variable\s*\+\s*([.A-Za-z0-9_]*(\->)*[.A-Za-z0-9_]*)\s*\)
+\s*malloc\(\s*tainted_variable\s*[\+\*]+(\s*[A-Za-z0-9_]*|[a-zA-Z0-9_\(\)]*)\s*[\(\)_,;\t \n\+\-\*\/\[\]]*\s*(.*)\s*[\(\)_,;\t \n\+\-\*\/\[\]]+\s*
+\s*calloc\(\s*([A-Za-z0-9_]*|[a-zA-Z0-9_\(\)]*)[\(\)_,;\t \n\+\-\*\/\[\]]*\s*tainted_variable\s*[\(\)_,;\t \n\+\-\*\/\[\]]+,\s*[\d\w]+\s*\)
+\s*realloc\(\s*\*ptr\s*,([A-Za-z0-9_]*|[a-zA-Z0-9_\(\)]*)[\(\)_,;\t \n\+\-\*\/\[\]]*tainted_variable[\(\)_,;\t \n\+\-\*\/\[\]]+\s*\)
+\s*realloc\(\s*\*ptr\s*,\s*tainted_variable\s*\)
+\s*calloc\(\s*tainted_variable,\s*[\d\w]*\s*\)

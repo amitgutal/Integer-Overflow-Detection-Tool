@@ -1,0 +1,1250 @@
+=============================================================================================================
+
+                       INTEGER OVERFLOW EXPLOITABILTY TOOL
+
+=============================================================================================================
+File Name      Function Name      Line Number     Depth     Tainted Variable           LINE
+
+Variable :argc
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Matched : int main(int argc,char **argv)
+
+
+Replace : int main(int tainted_variable,char **argv)
+
+
+Variable :argv
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Matched : int main(int argc,char **argv)
+
+
+Replace : int main(int argc,char **tainted_variable)
+
+
+Variable :a
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Variable :yup
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Variable :yup
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Variable :gh
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Variable :gh
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Variable :gh
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Variable :v
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Variable :u
+
+Line for Pattern Matching : int main(int argc,char **argv)
+
+
+Variable :argc
+
+Line for Pattern Matching : {
+
+
+Variable :argv
+
+Line for Pattern Matching : {
+
+
+Variable :a
+
+Line for Pattern Matching : {
+
+
+Variable :yup
+
+Line for Pattern Matching : {
+
+
+Variable :yup
+
+Line for Pattern Matching : {
+
+
+Variable :gh
+
+Line for Pattern Matching : {
+
+
+Variable :gh
+
+Line for Pattern Matching : {
+
+
+Variable :gh
+
+Line for Pattern Matching : {
+
+
+Variable :v
+
+Line for Pattern Matching : {
+
+
+Variable :u
+
+Line for Pattern Matching : {
+
+
+Variable :argc
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Variable :argv
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Variable :a
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Variable :yup
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Matched :   int x,y,p,yup,gh;
+
+
+Replace :   int x,y,p,tainted_variable,gh;
+
+
+Variable :yup
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Matched :   int x,y,p,yup,gh;
+
+
+Replace :   int x,y,p,tainted_variable,gh;
+
+
+Variable :gh
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Matched :   int x,y,p,yup,gh;
+
+
+Replace :   int x,y,p,yup,tainted_variable;
+
+
+Variable :gh
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Matched :   int x,y,p,yup,gh;
+
+
+Replace :   int x,y,p,yup,tainted_variable;
+
+
+Variable :gh
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Matched :   int x,y,p,yup,gh;
+
+
+Replace :   int x,y,p,yup,tainted_variable;
+
+
+Variable :v
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Variable :u
+
+Line for Pattern Matching :   int x,y,p,yup,gh;
+
+
+Variable :argc
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Variable :argv
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Variable :a
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Matched :   int u,v,a,t; 
+
+
+Replace :   int u,v,tainted_variable,t; 
+
+
+Variable :yup
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Variable :yup
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Variable :gh
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Variable :gh
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Variable :gh
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Variable :v
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Matched :   int u,v,a,t; 
+
+
+Replace :   int u,tainted_variable,a,t; 
+
+
+Variable :u
+
+Line for Pattern Matching :   int u,v,a,t; 
+
+
+Matched :   int u,v,a,t; 
+
+
+Replace :   int tainted_variable,v,a,t; 
+
+
+Variable :argc
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :argv
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :a
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :yup
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :yup
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :gh
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :gh
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :gh
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :v
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :u
+
+Line for Pattern Matching :   p=10; 
+
+
+Variable :argc
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :argv
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :a
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :yup
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :yup
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :gh
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :gh
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :gh
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :v
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :u
+
+Line for Pattern Matching :   scanf("enter values :%d",&a);
+
+
+Variable :argc
+
+Line for Pattern Matching : 
+
+
+Variable :argv
+
+Line for Pattern Matching : 
+
+
+Variable :a
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :v
+
+Line for Pattern Matching : 
+
+
+Variable :u
+
+Line for Pattern Matching : 
+
+
+Variable :argc
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :argv
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :a
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :yup
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :yup
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :gh
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :gh
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :gh
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :v
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :u
+
+Line for Pattern Matching :   yup=argc+1;
+
+
+Variable :argc
+
+Line for Pattern Matching : 
+
+
+Variable :argv
+
+Line for Pattern Matching : 
+
+
+Variable :a
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :v
+
+Line for Pattern Matching : 
+
+
+Variable :u
+
+Line for Pattern Matching : 
+
+
+Variable :argc
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Variable :argv
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Matched : gh = atoi(argv);
+
+
+Replace : gh = atoi(tainted_variable);
+
+
+Variable :a
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Variable :yup
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Variable :yup
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Variable :gh
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Variable :gh
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Variable :gh
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Variable :v
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Variable :u
+
+Line for Pattern Matching : gh = atoi(argv);
+
+
+Variable :argc
+
+Line for Pattern Matching : 
+
+
+Variable :argv
+
+Line for Pattern Matching : 
+
+
+Variable :a
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :v
+
+Line for Pattern Matching : 
+
+
+Variable :u
+
+Line for Pattern Matching : 
+
+
+Variable :argc
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :argv
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :a
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :yup
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :yup
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :gh
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :gh
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :gh
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :v
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :u
+
+Line for Pattern Matching : v=malloc(atoi(x)+5);
+
+
+Variable :argc
+
+Line for Pattern Matching : 
+
+
+Variable :argv
+
+Line for Pattern Matching : 
+
+
+Variable :a
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :v
+
+Line for Pattern Matching : 
+
+
+Variable :u
+
+Line for Pattern Matching : 
+
+
+Variable :argc
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Variable :argv
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Variable :a
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Matched : u=malloc(y*add(a,t));
+
+
+Replace : u=mtainted_variablelloc(y*tainted_variabledd(tainted_variable,t));
+
+
+Variable :yup
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Variable :yup
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Variable :gh
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Variable :gh
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Variable :gh
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Variable :v
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Variable :u
+
+Line for Pattern Matching : u=malloc(y*add(a,t));
+
+
+Variable :tpt
+
+Line for Pattern Matching : int add(int tpt, int b)
+
+
+Matched : int add(int tpt, int b)
+
+
+Replace : int add(int tainted_variable, int b)
+
+
+Variable :tpt
+
+Line for Pattern Matching : int add(int tpt, int b)
+
+
+Matched : int add(int tpt, int b)
+
+
+Replace : int add(int tainted_variable, int b)
+
+
+Variable :s
+
+Line for Pattern Matching : int add(int tpt, int b)
+
+
+Variable :r
+
+Line for Pattern Matching : int add(int tpt, int b)
+
+
+Variable :r
+
+Line for Pattern Matching : int add(int tpt, int b)
+
+
+Variable :tpt
+
+Line for Pattern Matching : {
+
+
+Variable :tpt
+
+Line for Pattern Matching : {
+
+
+Variable :s
+
+Line for Pattern Matching : {
+
+
+Variable :r
+
+Line for Pattern Matching : {
+
+
+Variable :r
+
+Line for Pattern Matching : {
+
+
+Variable :tpt
+
+Line for Pattern Matching :   int r,s,a;
+
+
+Variable :tpt
+
+Line for Pattern Matching :   int r,s,a;
+
+
+Variable :s
+
+Line for Pattern Matching :   int r,s,a;
+
+
+Matched :   int r,s,a;
+
+
+Replace :   int r,tainted_variable,a;
+
+
+Variable :r
+
+Line for Pattern Matching :   int r,s,a;
+
+
+Matched :   int r,s,a;
+
+
+Replace :   int tainted_variable,s,a;
+
+
+Variable :r
+
+Line for Pattern Matching :   int r,s,a;
+
+
+Matched :   int r,s,a;
+
+
+Replace :   int tainted_variable,s,a;
+
+
+Variable :tpt
+
+Line for Pattern Matching :   s=getchar();
+
+
+Variable :tpt
+
+Line for Pattern Matching :   s=getchar();
+
+
+Variable :s
+
+Line for Pattern Matching :   s=getchar();
+
+
+Variable :r
+
+Line for Pattern Matching :   s=getchar();
+
+
+Variable :r
+
+Line for Pattern Matching :   s=getchar();
+
+
+Variable :tpt
+
+Line for Pattern Matching :   r=malloc(tpt+b);
+
+
+Matched :   r=malloc(tpt+b);
+
+
+Replace :   r=malloc(tainted_variable+b);
+
+
+test/sm1.c       add                7            1 /  1        tpt               r=malloc(tpt+b);
+test/sm1.c       add                7            1 /  1        tpt               r=malloc(tpt+b);
+Variable :tpt
+
+Line for Pattern Matching :   r=malloc(tpt+b);
+
+
+Matched :   r=malloc(tpt+b);
+
+
+Replace :   r=malloc(tainted_variable+b);
+
+
+test/sm1.c       add                7            1 /  1        tpt               r=malloc(tpt+b);
+test/sm1.c       add                7            1 /  1        tpt               r=malloc(tpt+b);
+Variable :s
+
+Line for Pattern Matching :   r=malloc(tpt+b);
+
+
+Variable :r
+
+Line for Pattern Matching :   r=malloc(tpt+b);
+
+
+Variable :r
+
+Line for Pattern Matching :   r=malloc(tpt+b);
+
+
+Variable :tpt
+
+Line for Pattern Matching : 
+
+
+Variable :tpt
+
+Line for Pattern Matching : 
+
+
+Variable :s
+
+Line for Pattern Matching : 
+
+
+Variable :r
+
+Line for Pattern Matching : 
+
+
+Variable :r
+
+Line for Pattern Matching : 
+
+
+Variable :tpt
+
+Line for Pattern Matching :   s=a+b;
+
+
+Variable :tpt
+
+Line for Pattern Matching :   s=a+b;
+
+
+Variable :s
+
+Line for Pattern Matching :   s=a+b;
+
+
+Variable :r
+
+Line for Pattern Matching :   s=a+b;
+
+
+Variable :r
+
+Line for Pattern Matching :   s=a+b;
+
+
+Variable :tpt
+
+Line for Pattern Matching : 
+
+
+Variable :tpt
+
+Line for Pattern Matching : 
+
+
+Variable :s
+
+Line for Pattern Matching : 
+
+
+Variable :r
+
+Line for Pattern Matching : 
+
+
+Variable :r
+
+Line for Pattern Matching : 
+
+
+Variable :tpt
+
+Line for Pattern Matching : 
+
+
+Variable :tpt
+
+Line for Pattern Matching : 
+
+
+Variable :s
+
+Line for Pattern Matching : 
+
+
+Variable :r
+
+Line for Pattern Matching : 
+
+
+Variable :r
+
+Line for Pattern Matching : 
+
+
+Variable :tpt
+
+Line for Pattern Matching : 
+
+
+Variable :tpt
+
+Line for Pattern Matching : 
+
+
+Variable :s
+
+Line for Pattern Matching : 
+
+
+Variable :r
+
+Line for Pattern Matching : 
+
+
+Variable :r
+
+Line for Pattern Matching : 
+
+
+Variable :tpt
+
+Line for Pattern Matching :   }
+
+
+Variable :tpt
+
+Line for Pattern Matching :   }
+
+
+Variable :s
+
+Line for Pattern Matching :   }
+
+
+Variable :r
+
+Line for Pattern Matching :   }
+
+
+Variable :r
+
+Line for Pattern Matching :   }
+
+
+Variable :argc
+
+Line for Pattern Matching : 
+
+
+Variable :argv
+
+Line for Pattern Matching : 
+
+
+Variable :a
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :v
+
+Line for Pattern Matching : 
+
+
+Variable :u
+
+Line for Pattern Matching : 
+
+
+Variable :argc
+
+Line for Pattern Matching : 
+
+
+Variable :argv
+
+Line for Pattern Matching : 
+
+
+Variable :a
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :yup
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :gh
+
+Line for Pattern Matching : 
+
+
+Variable :v
+
+Line for Pattern Matching : 
+
+
+Variable :u
+
+Line for Pattern Matching : 
+
+
+Variable :argc
+
+Line for Pattern Matching : }
+
+
+Variable :argv
+
+Line for Pattern Matching : }
+
+
+Variable :a
+
+Line for Pattern Matching : }
+
+
+Variable :yup
+
+Line for Pattern Matching : }
+
+
+Variable :yup
+
+Line for Pattern Matching : }
+
+
+Variable :gh
+
+Line for Pattern Matching : }
+
+
+Variable :gh
+
+Line for Pattern Matching : }
+
+
+Variable :gh
+
+Line for Pattern Matching : }
+
+
+Variable :v
+
+Line for Pattern Matching : }
+
+
+Variable :u
+
+Line for Pattern Matching : }
+
+

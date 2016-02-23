@@ -1,0 +1,6 @@
+$main test/sm.c 19
+ $total test/sm.c 5
+ #conc test/sm1.c 6
+  $select_result test/sm1.c 31
+  #call_graph test/sm2.c 6
+   #read_data test/new.c 6

@@ -1,0 +1,31 @@
+$main: int (), <test/sm.c 19>
+ $getchar: <>
+ $printf: <>
+ $total: int (), <test/sm.c 5>
+     $atoi: <>
+     $malloc: <>
+     #printf: <>
+ $calloc: <>
+ #conc: char (), <test/sm1.c 6>
+  $printf: <>
+  $select_result: int (), <test/sm1.c 31>
+      $close: <>
+      $strlen: <>
+      $write: <>
+      $perror: <>
+      #malloc: <>
+  #call_graph: char (), <test/sm2.c 6>
+   $sprintf: <>
+   $open: <>
+   $geteuid: <>
+   $strcpy: <>
+   $access: <>
+   $realloc: <>
+   $close: <>
+   #read_data: int (), <test/new.c 6>
+    $scanf: <>
+    $fprintf: <>
+    $exit: <>
+    $read: <>
+    $perror: <>
+    #malloc: <>
